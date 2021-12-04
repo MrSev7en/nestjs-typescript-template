@@ -1,0 +1,38 @@
+{
+  "author": "Author <author@email.com>",
+  "license": "UNLICENSED",
+  "name": "project",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "prebuild": "rimraf dist",
+    "build": "nest build",
+    "start": "nest start",
+    "start:dev": "nest start --watch",
+    "start:prod": "node dist/src/main"
+  },
+  "dependencies": {
+    "@nestjs/common": "@",
+    "@nestjs/core": "@",
+    "@nestjs/platform-express": "@",
+    "@nestjs/platform-fastify": "@",
+    "@nestjs/swagger": "@",
+    "class-transformer": "@",
+    "class-validator": "@",
+    "reflect-metadata": "@",
+    "rimraf": "@"
+  },
+  "devDependencies": {
+    "@nestjs/cli": "@",
+    "@types/express": "@",
+    "@types/node": "@",
+    "@typescript-eslint/eslint-plugin": "@",
+    "@typescript-eslint/parser": "@",
+    "eslint": "@",
+    "eslint-config-prettier": "@",
+    "eslint-plugin-prettier": "@",
+    "prettier": "@",
+    "tsconfig-paths": "@",
+    "typescript": "@"
+  }
+}
